@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fffab3;
+    font-family: 'Oswald', sans-serif;
+
+}
+body,html{
+    scroll-behavior: smooth;
+}
+div.destaque{
+    background-image: url("https://cdn.discordapp.com/attachments/968229431988604940/982066958818234408/742096.jpg");
+    overflow: hidden;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+   
+    box-shadow: 0 1px 50px 1px rgb(94, 14, 0);
+    /* border-radius: 0 0 5px 5px; */
+    
+}
+div.photo{
+    margin:  16px 16px;
+    background-color: rgb(95, 108, 133);
+    height: 50vh;
+    width: 40vh;
+    border-radius: 15px;
+    transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    
+}
+div.photo:hover{
+    transform: scale(1.05); 
+    transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+div.foto:hover{
+    transform: scale(1.05); 
+    transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+div.fotot:hover{
+    transform: scale(1.05); 
+    transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+div.fotob:hover{
+    transform: scale(1.05); 
+    transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+div.foto{
+    margin:  16px 16px;
+    background-color: rgb(95, 108, 133);
+    height: 320px;
+    width: 347px;
+    border-radius: 15px;
+    transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+}
+div.fotot{
+    margin:  16px 16px;
+    background-color: rgb(95, 108, 133);
+    height: 320px;
+    width: 347px;
+    border-radius: 15px;
+    transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    background-position: top;
+    background-size: cover;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+}
+div.fotob{
+    margin:  16px 16px;
+    background-color: rgb(95, 108, 133);
+    height: 320px;
+    width: 347px;
+    border-radius: 15px;
+    
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+}
+div.text{
+    color: white;
+    height: 24vh ;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 5px 5px #00000018;
+    
+    text-shadow: 
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #c7ba00,
+    0 0 82px #c4c700,
+    0 0 92px #c4c700,
+    0 0 102px #c4c700,
+    0 0 151px #c4c700;
+    ;
+    animation: pulsate 2.5s infinite alternate;
+    /* background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px); */
+}
+@keyframes pulsate {
+    100% {
+      /* Larger blur radius */
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #c4c700,
+        0 0 80px #c4c700,
+        0 0 90px #c4c700,
+        0 0 100px #c4c700,
+        0 0 150px #c4c700;
+    }
+    0% {
+      /* Smaller blur radius */
+      text-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 6px #fff,
+        0 0 10px #c4c700,
+        0 0 45px #c4c700,
+        0 0 55px #c4c700,
+        0 0 70px #c4c700,
+        0 0 80px #c4c700;
+    }
+  }
+p.enunciado{
+    transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+p.enunciado:hover{
+    transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform: scale(1.1);
+    
+}
+div.catalogo{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.nos{
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 5px 5px #00000018;
+}
+div.links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+div.links a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: larger;
+    transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+div.links a :visited{
+    color: #ffffff; 
+}
+div.links a:hover{
+    color: #fff56c;
+    transform: scale(1.1);
+    transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+a.lol{
+    transform: scale(1.05); 
+}
+div.barra{
+    background: linear-gradient(rgba(0, 0, 0, 0.589),transparent);
+    height: 120px;
+}
+div.poema{
+    background-color: rgb(209, 208, 148);
+    border-radius: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #835500;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    box-shadow: 0 0 25px 0 rgba(99, 84, 0, 0.63);
+}
+div.photo{
+    box-shadow: 0 0 25px 0 rgba(66, 56, 0, 0.726);
+}
+div.musica{
+    display: flex;
+    justify-content: center;
+    
+}
+div.cartinha{
+    background-color: #eee;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #333;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    box-shadow: 0 0 25px 0 rgb(255, 87, 87);
+   
+    
+}
+div.texto{
+    margin: 35px;
+}
+.wavy {
+    animation-name: wavy;
+    animation-duration: 1.3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+@keyframes wavy {
+    0% {
+      top: 5px;
+    }
+    50% {
+      top: -5px;
+    }
+    100% {
+      top: 5px;
+    }
+}
+.blob {
+	background: rgb(0, 0, 0);
+	
+	margin: 10px;
+	height: 20px;
+	width: 20px;
+}
+.blob {
+	background: rgba(255, 74, 74, 0.267);
+	border-radius: 5px;
+	margin: 10px;
+	height: 20px;
+	width: 20px;
+
+	box-shadow: 0 0 0 0 rgba(255, 101, 101, 0.637);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(243, 61, 61, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+div.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+div.msc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+div.bg-diff{
+    background: rgb(255,76,76);
+    background: linear-gradient(0deg, rgba(255,76,76,1) 0%, rgba(255,250,179,1) 78%);
+    display: flex;
+    justify-content: center;
+}
+img.roxo{
+  transform: scaleX(-1);
+  margin-left: 34vh;
+}
